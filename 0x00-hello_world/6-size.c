@@ -16,5 +16,6 @@ int main(void)
 	printf("Size of a long long int: %zu byte(s)\n",sizeof(long long int));
 	printf("Size of a float %zu byte(s)\n", sizeof(float));
 	return (0);
-}
-"6-size.c" [New] 20L, 487C written
+}:wq
+
+
