@@ -32,7 +32,6 @@ int is_strictly_positive(int elem)
 int abs_is_98(int elem)
 {
 	return (elem == 98 || -elem == 98);
-}
 
 /**
  * main - check the code
@@ -48,7 +47,7 @@ int main(void)
 	printf("%d\n", index);
 	index = int_index(array, 20, abs_is_98);
 	printf("%d\n", index);
-	ndex = int_index(array, 20, is_strictly_positive);
+	index = int_index(array, 20, is_strictly_positive);
 	printf("%d\n", index);
 	return (0);
 }
