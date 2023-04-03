@@ -19,7 +19,7 @@ head = &hello;
 new = malloc(sizeof(listint_t));
 if (new == NULL)
 {
-printf("Error\n"
+printf("Error\n");
 return (1);
 }
 new->n = 9;
