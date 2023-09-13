@@ -18,6 +18,12 @@ size_t step = sqrt(size), prev = 0;
 if (array == NULL || size == 0)
 return (-1);
 
+if (array[size - 1] < value)
+{
+printf("Value not present in array\n");
+return (-1);
+}
+
 while (array[step] <= value && step < size)
 {
 printf("Value checked array[%lu] = [%d]\n", step, array[step]);
